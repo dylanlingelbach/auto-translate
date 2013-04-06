@@ -1,0 +1,19 @@
+{
+  "name": "auto-translate",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "coffee app"
+  },
+  "dependencies": {
+    "mstranslator": "*",
+    "coffee-script": "*",
+    "twilio": "*",
+    "underscore": "*",
+    "nano": "*"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "engine": "node >= 0.10.3"
+}

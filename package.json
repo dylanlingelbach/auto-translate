@@ -10,7 +10,9 @@
     "coffee-script": "*",
     "twilio": "*",
     "underscore": "*",
-    "nano": "*"
+    "nano": "*",
+    "bunyan": "*",
+    "restify": "*"
   },
   "devDependencies": {
     "mocha": "*"

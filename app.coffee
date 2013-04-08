@@ -119,6 +119,8 @@ listenForMessages = ->
   )
 
 db.list((err, body) ->
+  if not body
+    return
   body.rows.forEach((doc) ->
     processed_texts[doc.id] = true
   )
